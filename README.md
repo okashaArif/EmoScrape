@@ -1,3 +1,49 @@
+EMOSCRAPE
+
+📌 Overview
+
+This project is a full-stack web application that scrapes data from Reddit and Twitter based on user-defined keywords. It then applies sentiment analysis to the extracted data and displays the results in a user-friendly dashboard.
+
+Tech Stack
+
+Frontend: React.js
+
+Backend: Flask
+
+Web Scraping: Reddit & Twitter APIs
+
+Sentiment Analysis: NLP libraries (TextBlob, VADER, or similar)
+
+🔥 Features
+
+✅ Keyword-Based Scraping: Fetch real-time data from Reddit and Twitter.
+
+✅ Sentiment Analysis: Classify posts as positive, negative, or neutral.
+
+✅ Interactive Dashboard: Display results dynamically using React.
+
+✅ Flask API: Handle data processing and sentiment analysis.
+
+
+📊 Sentiment Analysis Results
+
+The extracted posts are analyzed for sentiment.
+
+A graphical representation of sentiment distribution is displayed.
+
+Users can filter results based on time, sentiment, or platform.
+
+📌 Future Enhancements
+
+🔹 Implement real-time updates for scraping.
+
+🔹 Improve accuracy with deep learning-based sentiment analysis.
+
+🔹 Add more visualization and filtering options.
+
+🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for improvements!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
