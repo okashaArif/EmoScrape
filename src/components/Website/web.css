@@ -1,0 +1,22 @@
+
+body{
+    box-sizing: border-box;
+    background-color: "#EEEEFF";
+    margin: 0;padding: 0;
+}
+.btn:hover {
+    background-color: #052548; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+.loading-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  

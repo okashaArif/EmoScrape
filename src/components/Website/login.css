@@ -1,0 +1,77 @@
+/* LoginPage.css */
+
+/* Center content vertically and horizontally */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Set height to 80vh */
+}
+
+/* Style the image */
+.img-fluid {
+    max-width: 50%; /* Image takes up 50% of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the form container */
+.form-container {
+    width: 50%; /* Form container takes up 50% of the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the form */
+.form-outline {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-outline input {
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.form-outline label {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
+.form-outline input:focus + .form-label,
+.form-outline input:not(:placeholder-shown) + .form-label {
+    top: -0.5rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    color: #6c757d;
+    background-color: #fff;
+    padding: 0 0.25rem;
+}
+
+/* Style the login button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style the link */
+.link-danger {
+    color: #dc3545;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.link-danger:hover {
+    color: #bd2130;
+}

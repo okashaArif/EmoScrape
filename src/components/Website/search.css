@@ -1,0 +1,81 @@
+.body {
+    background-color: #fff;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border: none;
+  }
+  
+  .input-box {
+    display: flex; /* Make input box and button flex items */
+  }
+  
+  .input-box input {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .input-box .search-btn {
+    margin-left: 10px; /* Add some space between input and button */
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input-box .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-control {
+    height: 50px;
+    background-color: #eeeeee69;
+  }
+  
+  .form-control:focus {
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+  
+  .list {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .border-bottom {
+    border-bottom: 2px solid #eee;
+  }
+  
+  .list i {
+    font-size: 19px;
+    color: #083171;
+    margin-right: 2%;
+  }
+  
+  .list small {
+    color: #dedddd;
+  }
+  .search-btn {
+    margin-left: 10px; /* Add some space between input and button */
+    height: 50px;
+    padding: 0 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-btn:focus {
+    outline: none;
+  } 
